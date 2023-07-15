@@ -116,7 +116,7 @@ h1{
 .somos{
     margin-left: 12%;
     display: flex;
-    color: red;
+    color: rgb(207, 0, 0);
     font-size: 4.5em;
     font-family:serif;
     font-style: italic;
@@ -126,7 +126,7 @@ h1{
 .are{
     margin-left: 7%;
     display: flex;
-    color: red;
+    color: rgb(207, 0, 0);
     font-size: 4.5em;
     font-family:serif;
     font-style: italic;
@@ -141,12 +141,12 @@ h1{
 }
 
 .boton{
-    color: red;
+    color: rgb(207, 0, 0);
     font-size: larger;
     padding: 1%;
     background-color: rgb(188, 231, 231);
     border-radius: 200px;
-    border-color: red;
+    border-color: rgb(207, 0, 0);
     margin-left: 12%;
 }
 
