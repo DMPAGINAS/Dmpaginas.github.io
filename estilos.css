@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 30%;
+    height: 6vh;
+    
+}
+
+.arriba:hover{
+    transition: 1.5s;
+    color: #fdbb2d;
+}
+
+.arriba{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    padding: 5%;
+    font-family: sans-serif;
+}
+
+                        /*SECTION BISQUE*/
+.part1{
+    width: 100%;
+    height: 55vh;
+    background-color: bisque;
+}
+                        /*SECTION BLANCO*/
+.part2{
+    width: 100%;
+    height: 45vh;
+    background-color: rgb(243, 250, 250);
+}
+                        /*DIV QUE CONTIENE EL LOGO*/
+.contlogo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 35vh;
+    margin-top: 7%;
+}
+
+.logo{
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+                        /*DECLARO LA ANIMACION*/
+.logo{
+    animation-name: aparicion;
+    animation-duration: 1.2s;
+}
+
+h1{
+    font-size: 4em;
+    font-weight: 100;
+    font-style: italic;
+    color: rgb(48, 48, 48);
+}
+                        /*"DISENIOS WEB"*/
+.web{
+    font-size: 2em;
+    font-weight: 100;
+    font-style: italic;
+    color: rgb(48, 48, 48);
+}
+                        /*EL TEXTO DE ABAJO*/
+.presentacion{
+    width: 55%;
+    text-align: center;
+    margin-left: 23%;
+    font-size: larger;
+    color: rgb(173, 173, 173);
+}
+.dm{
+    width: 100%;
+    text-align: center;
+}
+
+.contdisenio{
+    width: 100%;
+    text-align: center;
+}
+
+
+                        /*PAGINA NOSOTROS*/
+.logo2{
+    box-shadow: 0.5em 0.5em 0.5em rgb(101, 101, 101);
+    display: flex;
+    align-items: center;
+    height: 40%;
+    width: 40%;
+    border-radius: 50%;
+    float: right;
+    margin-right: 5%;
+}
+
+.quienes{
+    margin-top: 5%;
+    margin-left: 15%;
+    color: rgb(157, 157, 157);
+    font-size: 2.5em;
+    font-weight: 100;
+}
+
+.somos{
+    margin-left: 7%;
+    display: flex;
+    color: red;
+    font-size: 4.5em;
+    font-family:serif;
+    font-style: italic;
+}
+
+.weare{
+    color: rgb(140, 140, 140);
+    width: 40%;
+    text-align: center;
+    padding: 1%;
+}
+
+.boton{
+    color: red;
+    font-size: larger;
+    padding: 1%;
+    background-color: rgb(240, 240, 240);
+    border-radius: 200px;
+    border-color: red;
+    margin-left: 12%;
+}
+
+.but{
+    font-size: larger;
+    padding: 1%;    
+}
+
+#todo{
+    margin-left: 3%;
+}
+
+.insta{
+    margin-top: 6%;
+    margin-left: 16%;
+    height: 3%;
+    width: 3%;
+}
+
+.gmail{
+    margin-left: 6%;
+    width: 3%;
+    height: 3%;
+}
+
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+
+
+
+
+                        /*HACE LA TRANSICION*/
+@keyframes aparicion{
+    0%{
+        opacity: 0;
+        transform: scale(0.5) translateY(2%);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+@media screen and (max-width: 450px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .cont{
+        width: 100%;
+        margin: 0; 
+    }
+
+    a{
+        font-size: 1.2em;
+        padding: 5%;
+    }
+
+    .contlogo{
+        margin-top: 25%;
+    }
+
+    .weare{
+        width: 100%;
+        text-align: center;
+        padding: 1%;
+    }
+    .boton{
+        margin-left: 27%;
+    }
+    .insta{
+        height: 10%;
+        width: 10%;
+    }
+    
+    .gmail{
+        margin-left: 28%;
+        width: 10%;
+        height: 10%;
+    }
+}
