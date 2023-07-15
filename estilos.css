@@ -102,7 +102,7 @@ h1{
     width: 40%;
     border-radius: 50%;
     float: right;
-    margin-right: 5%;
+    margin-right: 3%;
 }
 
 .quienes{
@@ -114,12 +114,23 @@ h1{
 }
 
 .somos{
+    margin-left: 12%;
+    display: flex;
+    color: red;
+    font-size: 4.5em;
+    font-family:serif;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.are{
     margin-left: 7%;
     display: flex;
     color: red;
     font-size: 4.5em;
     font-family:serif;
     font-style: italic;
+    font-weight: 100;
 }
 
 .weare{
@@ -133,7 +144,7 @@ h1{
     color: red;
     font-size: larger;
     padding: 1%;
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(188, 231, 231);
     border-radius: 200px;
     border-color: red;
     margin-left: 12%;
@@ -162,7 +173,7 @@ h1{
 }
 
 body{
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(188, 231, 231);
 }
 
 
@@ -200,11 +211,27 @@ body{
     .contlogo{
         margin-top: 25%;
     }
+    .logo2{
+        margin-right: 10%;
+        height: 30%;
+        width: 30%;
+    }
 
     .weare{
-        width: 100%;
+        width: 90%;
         text-align: center;
         padding: 1%;
+    }
+    .quienes{
+        margin-top: 5%;
+        margin-left: 6%;
+        color: rgb(157, 157, 157);
+        font-size: 2.5em;
+        font-weight: 100;
+    }
+    .somos{
+        margin-left: 5%;
+        font-size: 4.5em;
     }
     .boton{
         margin-left: 27%;
